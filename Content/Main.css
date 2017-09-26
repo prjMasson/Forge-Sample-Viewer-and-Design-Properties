@@ -1,0 +1,46 @@
+﻿html, body {
+  height: 502px;
+  line-height: 1;
+}
+
+body {
+  padding-top: 15px; /* space for the top nav bar */
+}
+
+#dataManagementHubs {
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  position: absolute;
+}
+
+#forgeViewer {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width:100%;
+  /*bottom: 257px;*/
+  /*top: -161px;*/
+  left: -2px;
+  right: 2px;
+  /*margin-top: 50px;*/
+  /*margin-bottom: 0px;*/
+  /*margin-right: 0px;*/
+  /*margin-left: 17%;*/
+ /* background-color: #F0F0F0;*/
+}
+
+
+.alignItem{
+  cursor: pointer;
+  background: none;   
+  color: #FFFFFF;
+}
+
+#designProperties {
+  display: block;
+  position: absolute;
+  width: 99%;
+  padding: 2px;
+  /*background-color: #F0F0F0*;*/
+}
